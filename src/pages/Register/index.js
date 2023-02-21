@@ -1,6 +1,6 @@
 import React from "react";
 import { RegisterBg } from "../../assets";
-import { Button, Gap, Input } from "../../components";
+import { Button, DLink, Gap, Input } from "../../components";
 import "./register.scss";
 
 const Register = () => {
@@ -18,6 +18,8 @@ const Register = () => {
         <Input label="Password" placeholder="Password" />
         <Gap height={37} />
         <Button title="Register" />
+        <Gap height={90} />
+        <DLink title="Kembali Ke Home" to="/" />
       </div>
     </div>
   );
